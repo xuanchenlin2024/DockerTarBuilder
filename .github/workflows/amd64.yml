@@ -1,4 +1,4 @@
-name: liuyong1987/fourgtv
+name: docker镜像下载
 on:
   workflow_dispatch:
     inputs:
