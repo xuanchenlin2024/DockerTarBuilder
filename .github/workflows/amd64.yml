@@ -1,11 +1,11 @@
-name: docker镜像下载
+name: AMD64镜像下载
 on:
   workflow_dispatch:
     inputs:
       docker_images:
         description: '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'alpine:latest,busybox:stable-glibc'  # 设置默认的 Docker 镜像列表
+        default: 'taksss/php-epg,youshandefeiyang/allinone'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
